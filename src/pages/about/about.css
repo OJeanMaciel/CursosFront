@@ -1,0 +1,30 @@
+.sobre {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre.loaded {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h1,h2 {
+    background-image: linear-gradient(to right, #f15d07, #cf4f05, #ff5f6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+p,ul {
+    margin: 10px 0;
+}

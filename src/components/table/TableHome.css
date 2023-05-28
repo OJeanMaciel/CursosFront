@@ -1,0 +1,30 @@
+.containerTable {
+  border: 2px solid #ffbb33;
+  border-radius: 10px;
+  margin: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.containerTable.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.column-name,
+.column-age,
+.column-address {
+  width: 20%;
+}
+
+.ant-pagination {
+  text-align: center;
+}
+
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
